@@ -36,7 +36,7 @@ static void reboot(CFNotificationCenterRef center, void *observer, CFStringRef n
     %orig;
     fields= [[NSMutableArray alloc]init];
     devices= [[NSMutableDictionary alloc]initWithContentsOfFile: @"/var/mobile/Library/Preferences/com.apple.MobileBluetooth.devices.plist"];
-    return %roig;
+    return %orig;
 }
 %end
 
