@@ -1,0 +1,10 @@
+Package: com.alex.bluetoothrename
+Name: Bluetooth Rename
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Alexandre
+Author: Alexandre
+Section: Tweaks
+Version: 0.0.1-163
+Installed-Size: 69
