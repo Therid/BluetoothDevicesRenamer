@@ -38,11 +38,9 @@ static void reboot(CFNotificationCenterRef center, void *observer, CFStringRef n
     devices= [[NSMutableDictionary alloc]initWithContentsOfFile: @"/var/mobile/Library/Preferences/com.apple.MobileBluetooth.devices.plist"];
     return %roig;
 }
-
 %end
 
 //Add UIGestureRecognizer on all BTTableCell representing a paired device
-
 %hook UITableViewLabel
 -(void)layoutSubviews{
       %orig; 
@@ -138,7 +136,6 @@ static void reboot(CFNotificationCenterRef center, void *observer, CFStringRef n
 
 %hook UITableView
 //Force resign first responder if the user was in the UITextField during table'update (avoid crash)
-
 -(void)_updateWithItems: (id) arg1 updateSupport: (id) arg2 {
    if (field.isFirstResponder == YES)
    {
