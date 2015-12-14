@@ -8,6 +8,7 @@ BluetoothRename_FILES = Tweak.xm
 
 BluetoothRename_FRAMEWORKS = UIKit AppSupport
 BluetoothRename_LIBRARIES = rocketbootstrap
+BluetoothRename_LDFLAGS += -Wl,-segalign,4000
 BluetoothRename_PRIVATE_FRAMEWORKS = Preferences
 Depends:  com.rpetrich.rocketbootstrap
 include $(THEOS_MAKE_PATH)/tweak.mk

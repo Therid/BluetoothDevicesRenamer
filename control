@@ -1,9 +1,10 @@
 Package: com.alex.bluetoothrename
-Name: Bluetooth Rename
+Name: Bluetooth Devices Renamer
 Depends: mobilesubstrate
 Version: 1.1
 Architecture: iphoneos-arm
 Description: Rename your Bluetooth Devices!
-Maintainer: Alexandre
-Author: Alexandre
+Maintainer: Alexandre <alexandre31.tweak@gmail.com>
+Author: Alexandre <alexandre31.tweak@gmail.com>
 Section: Tweaks
+Depiction: http://therid.github.io/depiction/bluetoothrename/theme.html
